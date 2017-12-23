@@ -343,3 +343,9 @@ h4.team-member-designation {
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 0; }
+
+/*===============================================
+                 Clients
+================================================*/
+.client {
+  padding: 40px 0; }
