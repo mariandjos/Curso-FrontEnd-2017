@@ -507,3 +507,63 @@ blockquote {
 .client {
     padding: 40px 0;
 }
+
+/*===============================================
+                        Contact
+================================================*/
+
+footer {
+    background-color: $steelGrey;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left {
+    h3 {
+        color: $white;
+        font-size: 27px;
+        font-weight: 700;
+    }
+
+    p {
+        color: $white;
+        margin-bottom: 30px;
+    }
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: $white;
+}
+
+address strong, #phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: $white;
+    font-size: 17px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: $white;
+}
+
+
+/*===============================================
+                        Social
+================================================*/
+
+.icon-white {
+
+    i {
+        color: $white;
+    }
+
+}
