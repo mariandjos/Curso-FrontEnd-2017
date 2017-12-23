@@ -275,8 +275,8 @@ h4.team-member-designation {
     display: block; }
 
 /*===============================================
-                            Pricing
-    ================================================*/
+                    Pricing
+================================================*/
 .pricing-box {
   border: 3px solid #34C6D3;
   padding: 50px 0;
@@ -318,3 +318,28 @@ h4.team-member-designation {
     background-color: #fff; }
   .pricing-box-lg ul li p {
     color: #fff; }
+
+/*===============================================
+                   Stats
+================================================*/
+#stats-cover {
+  background-image: url("../img/bg-stats.jpg"); }
+
+#stats .content-box {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.stats-item {
+  padding: 100px 0; }
+  .stats-item i {
+    color: #34C6D3; }
+  .stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px; }
+  .stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0; }
